@@ -1,0 +1,201 @@
+
+/*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}*/
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+.container .content h3 span{
+   background: rgb(0, 145, 255);
+   color:#000000;
+   border-radius: 35px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color:rgb(0, 145, 255);
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:0 5px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background: crimson;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background: url(...images/loginbackground.jpg);
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: #fff;
+   text-align: center;
+   width: 400px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input{
+   width: 280px;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+   align-items: center;
+}
+.form-container form select{
+   width: 280px;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+   align-items: center;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: #fbd0d9;
+   color:crimson;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: crimson;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form p a{
+   color:crimson;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+
+table.masterlist {
+   width: 100%;
+}
+
+table.masterlist th {
+   background: #aaa;
+   text-align: left;
+}
+
+table.masterlist th, table.masterlist td {
+   padding: 10px;
+   border-bottom: 1px solid #aaa;
+}
+
+form.userform label {
+   width: 30%;
+   float: left;
+}
+
+form.userform input {
+   width: 160px;
+   display: block;
+   margin: 20px;
+}
+
+form.userform button {
+   width: 200px;
+   margin-left: 300px;
+}
+
+.add_item_form {
+   display: inline-block;
+   margin-left: 600px;
+}
+
+#h3101{
+   display: inline-block;
+   margin-left: 40px;
+}
+
+#p101 {
+   display: inline-block;
+   margin-left: 40px;
+}
+
+#btnrole{
+   margin-left: 500px;
+}
+
+#btnsubmit102{
+   margin-left: 0px;
+}
+
+#btnstock{
+   margin-left: 20px;
+}
+
